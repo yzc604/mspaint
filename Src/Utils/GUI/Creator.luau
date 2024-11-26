@@ -17,7 +17,7 @@ end
 
 function UICreator:CreateWindow()
     local Window = shared.Library:CreateWindow({
-        Title = "mspaint v3 | " .. shared.ScriptName,
+        Title = "mspaint v3 (OUTDATED!) | " .. shared.ScriptName,
         Center = true,
         AutoShow = true,
         Resizable = true,
@@ -61,6 +61,11 @@ end
 
 function UICreator:CreateSettingsTab()
     local SettingsTab = shared.Window:AddTab("UI Settings")
+    SettingsTab:UpdateWarningBox({
+        Visible = true,
+        Title = "WARNING",
+        Text = "You are using a deprecated version of mspaint, to get the new version please join our discord server via .gg/mspaint"
+    })
 
     local MenuGroup = SettingsTab:AddLeftGroupbox("Menu")
     local CreditsGroup = SettingsTab:AddRightGroupbox("Credits")
