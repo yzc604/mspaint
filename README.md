@@ -1,28 +1,23 @@
 # mspaint
 > [!IMPORTANT]
-> This script is now depricated
+> This script is now depericated
 
-A decent script hub that is free and open source 🥶
+A decent script hub that *was* free and open source
 
 ```lua
+-- THIS IS THE OLD SCRIPT, WE DO NOT ADVISE YOU USING THIS AS OVER TIME STUFF WILL GET PATCHED
 loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/mspaint/main/main.lua"))()
 ```
 
 **Links**:
-- [🌐 Website](https://mspaint.upio.dev/)
-- [💬 Discord](https://discord.com/invite/cfyMptntHr)
+- [🌐 Website](https://www.mspaint.cc/)
+- [💬 Discord](https://discord.gg/mspaint)
 
 # Addons
 You can find documentation on how to create an addon here: https://docs.upio.dev/mspaint/addons/getting_started
 
 # Website
-our website is at https://mspaint.upio.dev (source code here at https://github.com/notpoiu/webmspaint)
-
-# Contributing
-Please make sure to follow the [contributor guidelines](CONTRIBUTING.md).
-
-> [!IMPORTANT]
-> This script now uses the [wax bundler](https://github.com/latte-soft/wax) to organize code
+our website is at https://www.mspaint.cc (source code here at https://github.com/notpoiu/webmspaint)
 
 ## Bundling mspaint via wax
 To bundle all the scripts, you have to follow these steps:
